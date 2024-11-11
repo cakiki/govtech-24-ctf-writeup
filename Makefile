@@ -6,6 +6,7 @@ book:
 html:
 	mkdir -p docs
 	cp -r _build/html/* docs/
+	touch docs/.nojekyll
 
 push:
 	git add .
