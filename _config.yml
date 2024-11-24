@@ -20,6 +20,9 @@ latex:
 bibtex_bibfiles:
   - references.bib
 
+launch_buttons:
+  notebook_interface: jupyterlab 
+
 # Information about where the book exists on the web
 repository:
   url: https://github.com/cakiki/govtech-24-ctf-writeup  # Online location of your book
