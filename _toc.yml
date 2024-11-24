@@ -9,7 +9,7 @@ parts:
     - file: markdown
   - caption: CTF Qualifying Round
     chapters:
-    - file: notebooks
+    - file: prelims/notebooks
   - caption: CTF Final
     chapters:
-    - file: markdown-notebooks
+    - file: finals/markdown-notebooks
