@@ -1,11 +1,8 @@
-# Team Team's Singapore AI CTF by GovTech Writeup
+# Singapore AI CTF by GovTech Writeup
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+This Jupyter Book contains Team Team's writeup for both events of the 2024 Singapore AI CTF that was organized by GovTech and Dreadnode.
 
-Check out the content pages bundled with this sample book to see more.
+We finished 10th in the qualifying round and 3rd in the final in the open category.
 
 ```{tableofcontents}
 ```
