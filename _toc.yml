@@ -3,7 +3,13 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: GovTech CTF
+    chapters:
+    - file: markdown
+  - caption: CTF Qualifying Round
+    chapters:
+    - file: notebooks
+  - caption: CTF Final
+    chapters:
+    - file: markdown-notebooks
