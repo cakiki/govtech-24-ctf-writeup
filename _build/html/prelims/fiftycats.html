@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>FiftyCats &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'prelims/fiftycats';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt="My sample book - Home"/>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Singapore AI CTF by GovTech Writeup
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">GovTech CTF</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../markdown.html">Markdown Files</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">CTF Qualifying Round</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="autopilot12.html">Autopilot 1 and 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FRAGile.html">FRAGile</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">CTF Final</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../finals/markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/cakiki/govtech-24-ctf-writeup" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/cakiki/govtech-24-ctf-writeup/issues/new?title=Issue%20on%20page%20%2Fprelims/fiftycats.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/prelims/fiftycats.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>FiftyCats</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="fiftycats">
+<h1>FiftyCats<a class="headerlink" href="#fiftycats" title="Link to this heading">#</a></h1>
+<p>The objective of this challenge was to make a classifier detect fifty cats in an image generated by a model. To solve this level, we toyed around with the parameters that were given until we got a pair that gave us very high cat detection values, and then proceeded to brute force until a flag appeared.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="n">CRUCIBLE_API_KEY</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>  
+<span class="n">CHALLENGE</span> <span class="o">=</span> <span class="s2">&quot;fiftycats&quot;</span>
+<span class="n">CRUCIBLE_URL</span> <span class="o">=</span> <span class="s2">&quot;https://crucible.dreadnode.io&quot;</span>
+<span class="n">CHALLENGE_URL</span> <span class="o">=</span> <span class="s2">&quot;https://fiftycats.crucible.dreadnode.io&quot;</span>
+
+<span class="k">def</span> <span class="nf">submit_flag</span><span class="p">(</span><span class="n">flag</span><span class="p">,</span> <span class="n">challenge</span><span class="p">):</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">CRUCIBLE_URL</span><span class="si">}</span><span class="s2">/api/challenges/</span><span class="si">{</span><span class="n">CHALLENGE</span><span class="si">}</span><span class="s2">/submit-flag&quot;</span>
+    <span class="n">headers</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;X-API-Key&quot;</span><span class="p">:</span> <span class="n">CRUCIBLE_API_KEY</span><span class="p">}</span>
+    <span class="n">payload</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;challenge&quot;</span><span class="p">:</span> <span class="n">challenge</span><span class="p">,</span> <span class="s2">&quot;flag&quot;</span><span class="p">:</span> <span class="n">flag</span><span class="p">}</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">headers</span><span class="o">=</span><span class="n">headers</span><span class="p">,</span> <span class="n">json</span><span class="o">=</span><span class="n">payload</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">status_code</span> <span class="o">==</span> <span class="mi">200</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;correct&quot;</span><span class="p">)</span> <span class="ow">is</span> <span class="kc">True</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The flag was correct. Congrats!&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The flag was incorrect. Keep trying!&quot;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There was an error submitting your flag&quot;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">query</span><span class="p">(</span><span class="n">prompt</span><span class="p">,</span> <span class="n">conf_threshold</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span> <span class="n">iou_threshold</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
+        <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">CHALLENGE_URL</span><span class="si">}</span><span class="s2">/score&quot;</span><span class="p">,</span>
+        <span class="n">headers</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;X-API-Key&quot;</span><span class="p">:</span> <span class="n">CRUCIBLE_API_KEY</span><span class="p">},</span>
+        <span class="n">json</span><span class="o">=</span><span class="p">{</span>
+            <span class="s2">&quot;prompt&quot;</span><span class="p">:</span> <span class="n">prompt</span><span class="p">,</span>
+            <span class="s2">&quot;conf_threshold&quot;</span><span class="p">:</span> <span class="n">conf_threshold</span><span class="p">,</span>
+            <span class="s2">&quot;iou_threshold&quot;</span><span class="p">:</span> <span class="n">iou_threshold</span><span class="p">,</span>
+        <span class="p">},</span>
+    <span class="p">)</span>
+    <span class="k">return</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">time</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1000</span><span class="p">):</span>
+    <span class="n">sample_prompt</span> <span class="o">=</span> <span class="s1">&#39;fifty photographs of cats, animals, head, ears and claws, davinci style, realistic, cats, felines, lynx, bobcat, housecat, cat, hundred cats photos realistic&#39;</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">query</span><span class="p">(</span><span class="n">sample_prompt</span><span class="p">)</span>
+    <span class="c1"># img = get_image_from_b64(response[&quot;image&quot;])</span>
+    <span class="c1"># img</span>
+    
+    <span class="n">r2</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">v</span> <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">response</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="k">if</span> <span class="n">k</span> <span class="o">!=</span> <span class="s1">&#39;image&#39;</span><span class="p">}</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">r2</span><span class="p">[</span><span class="s1">&#39;scores&#39;</span><span class="p">]))</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">r2</span><span class="p">[</span><span class="s1">&#39;scores&#39;</span><span class="p">])</span> <span class="o">==</span> <span class="mi">50</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;flag found!&#39;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">r2</span><span class="p">)</span>
+        <span class="k">break</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>37
+31
+43
+50
+flag found!
+{&#39;boxes&#39;: [[355.18157958984375, 361.7899169921875, 449.79742431640625, 466.6470642089844, 0.9110085964202881, 15.0], [214.03750610351562, 32.54328536987305, 296.83795166015625, 111.21351623535156, 0.7868740558624268, 15.0], [354.7894287109375, 65.92018127441406, 458.00360107421875, 157.5083465576172, 0.7758598923683167, 15.0], [49.14979934692383, 69.92222595214844, 163.9160919189453, 155.01840209960938, 0.7547227740287781, 15.0], [55.84521484375, 358.52374267578125, 152.81393432617188, 467.0204162597656, 0.7134134769439697, 15.0], [221.88229370117188, 364.72381591796875, 286.8132629394531, 448.01422119140625, 0.698417067527771, 15.0], [54.15190505981445, 213.875732421875, 150.62173461914062, 282.30096435546875, 0.47032564878463745, 15.0], [362.1649169921875, 220.7931365966797, 428.137451171875, 282.3387756347656, 0.2755715548992157, 15.0], [214.54653930664062, 212.28543090820312, 295.8460693359375, 281.7326354980469, 0.17970089614391327, 15.0], [362.23919677734375, 221.2193145751953, 415.00396728515625, 281.96978759765625, 0.013212820515036583, 15.0], [42.05592727661133, 68.88227081298828, 167.370361328125, 282.62298583984375, 0.005964986048638821, 15.0], [250.0936737060547, 61.960235595703125, 293.22296142578125, 109.1547622680664, 0.001204214058816433, 15.0], [44.83760452270508, 69.83732604980469, 168.25106811523438, 220.6493377685547, 0.0004463781078811735, 15.0], [43.175010681152344, 69.97285461425781, 166.59658813476562, 242.4974822998047, 0.00037215076736174524, 15.0], [57.0458984375, 358.30694580078125, 151.56314086914062, 467.6822204589844, 0.00030775010236538947, 15.0], [366.22125244140625, 223.123779296875, 418.4093322753906, 268.8254699707031, 0.00024268269771710038, 15.0], [48.81356430053711, 70.8493881225586, 123.71623229980469, 155.2379913330078, 0.00023832984152249992, 15.0], [362.211181640625, 220.9249725341797, 426.2151794433594, 282.11639404296875, 0.00022581344819627702, 15.0], [45.26386642456055, 69.61463165283203, 167.85293579101562, 262.54815673828125, 0.00019611083553172648, 15.0], [210.9156951904297, 214.5576934814453, 230.1940460205078, 281.8729553222656, 0.0001889290870167315, 15.0], [47.35640335083008, 72.78861236572266, 165.30601501464844, 210.4036865234375, 0.0001784187334123999, 15.0], [221.14614868164062, 364.8201599121094, 268.3617858886719, 447.5816345214844, 0.00017481781833339483, 15.0], [58.514137268066406, 358.19891357421875, 151.0778045654297, 438.13128662109375, 0.00015139563765842468, 15.0], [48.51825714111328, 72.34757232666016, 101.43000793457031, 154.52626037597656, 0.0001433246216038242, 15.0], [349.41680908203125, 219.73837280273438, 451.69879150390625, 349.4610900878906, 0.00014115712838247418, 15.0], [47.696258544921875, 73.91209411621094, 163.2119598388672, 203.77099609375, 0.00014079298125579953, 15.0], [211.0067901611328, 212.3740692138672, 285.29364013671875, 281.6419982910156, 0.0001257041294593364, 15.0], [53.86236572265625, 214.5107421875, 151.21771240234375, 267.7160339355469, 0.00011541847925400361, 15.0], [44.49090576171875, 70.98905181884766, 162.8413848876953, 220.20425415039062, 0.00011493775673443452, 15.0], [214.4949188232422, 38.78723907470703, 296.13726806640625, 111.15059661865234, 0.00011292684939689934, 15.0], [365.8528747558594, 222.21157836914062, 417.80548095703125, 258.4450378417969, 0.00010930901044048369, 15.0], [53.22221755981445, 214.3350067138672, 150.65231323242188, 261.841552734375, 9.304934064857662e-05, 15.0], [66.63042449951172, 357.987548828125, 163.25746154785156, 463.8934020996094, 9.007873450173065e-05, 15.0], [363.7525939941406, 219.6038360595703, 469.30657958984375, 282.7046203613281, 8.602410525782034e-05, 15.0], [54.500648498535156, 214.3797607421875, 125.45442962646484, 281.84783935546875, 8.450692257611081e-05, 15.0], [39.170753479003906, 26.351049423217773, 178.193359375, 156.6578369140625, 8.070916373981163e-05, 15.0], [352.73199462890625, 100.61978149414062, 455.0868225097656, 159.62811279296875, 6.801770359743387e-05, 15.0], [57.0911979675293, 241.77914428710938, 135.351806640625, 281.80682373046875, 6.605232920264825e-05, 15.0], [43.817230224609375, 68.74153137207031, 169.0137939453125, 284.40374755859375, 6.519445014419034e-05, 15.0], [43.90502166748047, 67.9419937133789, 170.58767700195312, 177.67959594726562, 5.767419497715309e-05, 15.0], [54.216766357421875, 214.237060546875, 151.1032257080078, 282.06976318359375, 5.719446562579833e-05, 15.0], [361.94158935546875, 222.1810760498047, 432.38958740234375, 291.62713623046875, 5.217394573264755e-05, 15.0], [356.3135681152344, 108.2721176147461, 406.1848449707031, 156.34356689453125, 5.107686956762336e-05, 15.0], [222.4536590576172, 64.76803588867188, 294.4627685546875, 110.38092041015625, 5.067887468612753e-05, 15.0], [40.22599792480469, 69.47096252441406, 168.0031280517578, 170.99771118164062, 4.998040458303876e-05, 15.0], [368.3238220214844, 127.44002532958984, 454.7933044433594, 157.23895263671875, 4.846103911404498e-05, 15.0], [407.3641357421875, 132.47506713867188, 453.6744079589844, 156.2138214111328, 4.838955283048563e-05, 15.0], [53.708702087402344, 227.51358032226562, 150.63180541992188, 284.986083984375, 4.652885763789527e-05, 15.0], [330.79522705078125, 27.809764862060547, 470.981689453125, 157.1521759033203, 4.417061427375302e-05, 15.0], [183.54446411132812, 23.291088104248047, 470.716064453125, 159.1809844970703, 4.392588743939996e-05, 15.0]], &#39;scores&#39;: [0.9110085964202881, 0.7868740558624268, 0.7758598923683167, 0.7547227740287781, 0.7134134769439697, 0.698417067527771, 0.47032564878463745, 0.2755715548992157, 0.17970089614391327, 0.013212820515036583, 0.005964986048638821, 0.001204214058816433, 0.0004463781078811735, 0.00037215076736174524, 0.00030775010236538947, 0.00024268269771710038, 0.00023832984152249992, 0.00022581344819627702, 0.00019611083553172648, 0.0001889290870167315, 0.0001784187334123999, 0.00017481781833339483, 0.00015139563765842468, 0.0001433246216038242, 0.00014115712838247418, 0.00014079298125579953, 0.0001257041294593364, 0.00011541847925400361, 0.00011493775673443452, 0.00011292684939689934, 0.00010930901044048369, 9.304934064857662e-05, 9.007873450173065e-05, 8.602410525782034e-05, 8.450692257611081e-05, 8.070916373981163e-05, 6.801770359743387e-05, 6.605232920264825e-05, 6.519445014419034e-05, 5.767419497715309e-05, 5.719446562579833e-05, 5.217394573264755e-05, 5.107686956762336e-05, 5.067887468612753e-05, 4.998040458303876e-05, 4.846103911404498e-05, 4.838955283048563e-05, 4.652885763789527e-05, 4.417061427375302e-05, 4.392588743939996e-05], &#39;flag&#39;: &#39;gAAAAABnQpmxt6jIkvG8lFTGwyk-0FAwStWEviyPhjvRk49ohS7LRwUpZ-sWEgo9iQWRlQnJQJaltSFdLZFefAgDebT3ss0F1LjiKVQ5Nxjnm2fgPQPHYcmjis1Gn9xrW5TkKXeFvA2P-aXsS71fhcFZqP_7taY0J9ngGqoXYECWLZC3KL7pKGNDBPAFVUyeIT8rKHnVqgVu&#39;}
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./prelims"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Team Team
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2024.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

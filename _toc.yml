@@ -9,7 +9,9 @@ parts:
     - file: markdown
   - caption: CTF Qualifying Round
     chapters:
-    - file: prelims/notebooks
+    - file: prelims/autopilot12
+    - file: prelims/fiftcats
+    - file: prelims/FRAGile
   - caption: CTF Final
     chapters:
     - file: finals/markdown-notebooks
