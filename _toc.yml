@@ -10,7 +10,7 @@ parts:
   - caption: CTF Qualifying Round
     chapters:
     - file: prelims/autopilot12
-    - file: prelims/fiftcats
+    - file: prelims/fiftycats
     - file: prelims/FRAGile
   - caption: CTF Final
     chapters:
