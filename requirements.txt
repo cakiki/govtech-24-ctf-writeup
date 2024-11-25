@@ -17,6 +17,7 @@ matplotlib-inline==0.1.7
 nest-asyncio==1.6.0
 numpy==1.24.4
 packaging==24.2
+pandas==2.0.3
 parso==0.8.4
 pexpect==4.9.0
 pickleshare==0.7.5
@@ -26,9 +27,11 @@ prompt-toolkit==3.0.48
 psutil==6.1.0
 ptyprocess==0.7.0
 pure-eval==0.2.3
+pyarrow==17.0.0
 pygments==2.18.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
+pytz==2024.2
 pyzmq==26.2.0
 requests==2.32.3
 six==1.16.0
@@ -36,6 +39,7 @@ stack-data==0.6.3
 tornado==6.4.2
 traitlets==5.14.3
 typing-extensions==4.12.2
+tzdata==2024.2
 urllib3==2.2.3
 wcwidth==0.2.13
 zipp==3.20.2
