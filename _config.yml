@@ -4,7 +4,7 @@
 title: My sample book
 author: Team Team
 copyright: "2024"
-logo: logo.png
+logo: team-development-1.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
