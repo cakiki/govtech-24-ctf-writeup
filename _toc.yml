@@ -2,11 +2,11 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
+root: intro/intro
 parts:
   - caption: GovTech CTF
     chapters:
-    - file: markdown
+    - file: intro/event
   - caption: CTF Qualifying Round
     chapters:
     - file: prelims/autopilot12
