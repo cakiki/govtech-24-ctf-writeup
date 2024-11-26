@@ -63,8 +63,8 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'prelims/autopilot12';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="FiftyCats" href="fiftycats.html" />
-    <link rel="prev" title="The Event" href="../intro/event.html" />
+    <link rel="next" title="Autopilot 3" href="autopilot3.html" />
+    <link rel="prev" title="The Writeup" href="../intro/writeup.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -171,16 +171,33 @@
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">GovTech CTF</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../intro/event.html">The Event</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro/team.html">The Team</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro/writeup.html">The Writeup</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">CTF Qualifying Round</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Autopilot 1 and 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="autopilot3.html">Autopilot 3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="carbender.html">Carbender</a></li>
+<li class="toctree-l1"><a class="reference internal" href="extractor.html">Extractor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="extractor2.html">Extractor 2</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fiftycats.html">FiftyCats</a></li>
 <li class="toctree-l1"><a class="reference internal" href="FRAGile.html">FRAGile</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genigma.html">Genigma</a></li>
+<li class="toctree-l1"><a class="reference internal" href="voyager2.html">Voyager 2</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">CTF Final</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../finals/markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../finals/blindspot.html">Blind Spot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../finals/cubic.html">Cubic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../finals/cubic-bonus.html">Cubic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../finals/miner.html">Miner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../finals/mirage.html">Mirage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../finals/probe.html">Probe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../finals/probe2.html">Probe 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../finals/taxi.html">Taxi</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../finals/turtle.html">Turtle</a></li>
 </ul>
 
     </div>
@@ -345,7 +362,9 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -361,6 +380,15 @@
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#autopilot-1">Autopilot 1</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#autopilot-2">Autopilot 2</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -372,12 +400,16 @@
                   
   <section class="tex2jax_ignore mathjax_ignore" id="autopilot-1-and-2">
 <h1>Autopilot 1 and 2<a class="headerlink" href="#autopilot-1-and-2" title="Link to this heading">#</a></h1>
-<p>##Autopilot 1:
-Seeing as the challenge descriptions were relatively simple (Make the model detect a stop sign.), we decided to simply photoshop a stop sign onto the image:
-<img alt="autopilot 1" src="../_images/road2.jpg" />
-Looking at the second challenge description, we noticed that we simply had to change less of the image. Thus, we decided to shrink the stop sign:
-<img alt="autopilot 1" src="../_images/road3.jpg" />
-solving both challenges.</p>
+<section id="autopilot-1">
+<h2>Autopilot 1<a class="headerlink" href="#autopilot-1" title="Link to this heading">#</a></h2>
+<p>Seeing as the challenge descriptions were relatively simple (Make the model detect a stop sign.), we decided to simply photoshop a stop sign onto the image:
+<img alt="autopilot 1" src="../_images/road2.jpg" /></p>
+</section>
+<section id="autopilot-2">
+<h2>Autopilot 2<a class="headerlink" href="#autopilot-2" title="Link to this heading">#</a></h2>
+<p>Looking at the second challenge description, we noticed that we simply had to change less of the image. Thus, we decided to shrink the stop sign:
+<img alt="autopilot 1" src="../_images/road3.jpg" /></p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -411,20 +443,20 @@ solving both challenges.</p>
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../intro/event.html"
+       href="../intro/writeup.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">The Event</p>
+        <p class="prev-next-title">The Writeup</p>
       </div>
     </a>
     <a class="right-next"
-       href="fiftycats.html"
+       href="autopilot3.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">FiftyCats</p>
+        <p class="prev-next-title">Autopilot 3</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -434,6 +466,23 @@ solving both challenges.</p>
             </div>
             
             
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#autopilot-1">Autopilot 1</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#autopilot-2">Autopilot 2</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
