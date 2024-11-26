@@ -11,8 +11,13 @@ parts:
   - caption: CTF Qualifying Round
     chapters:
     - file: prelims/autopilot12
+    - file: prelims/autopilot3
+    - file: prelims/extractor
+    - file: prelims/extractor2
     - file: prelims/fiftycats
     - file: prelims/FRAGile
+    - file: prelims/genigma
+    - file: prelims/voyager2
   - caption: CTF Final
     chapters:
     - file: finals/markdown-notebooks
