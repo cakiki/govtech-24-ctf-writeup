@@ -8,6 +8,7 @@ parts:
     chapters:
     - file: intro/event
     - file: intro/team
+    - file: intro/writeup
   - caption: CTF Qualifying Round
     chapters:
     - file: prelims/autopilot12

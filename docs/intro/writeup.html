@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>The Event &#8212; My sample book</title>
+    <title>The Writeup &#8212; My sample book</title>
   
   
   
@@ -60,11 +60,11 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'intro/event';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'intro/writeup';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="The Team" href="team.html" />
-    <link rel="prev" title="Singapore AI CTF by GovTech Writeup" href="intro.html" />
+    <link rel="next" title="Autopilot 1 and 2" href="../prelims/autopilot12.html" />
+    <link rel="prev" title="The Team" href="team.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -170,9 +170,9 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">GovTech CTF</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">The Event</a></li>
+<li class="toctree-l1"><a class="reference internal" href="event.html">The Event</a></li>
 <li class="toctree-l1"><a class="reference internal" href="team.html">The Team</a></li>
-<li class="toctree-l1"><a class="reference internal" href="writeup.html">The Writeup</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">The Writeup</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">CTF Qualifying Round</span></p>
 <ul class="nav bd-sidenav">
@@ -269,7 +269,7 @@
       
       
       
-      <li><a href="https://github.com/cakiki/govtech-24-ctf-writeup/issues/new?title=Issue%20on%20page%20%2Fintro/event.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/cakiki/govtech-24-ctf-writeup/issues/new?title=Issue%20on%20page%20%2Fintro/writeup.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -299,7 +299,7 @@
       
       
       
-      <li><a href="../_sources/intro/event.md" target="_blank"
+      <li><a href="../_sources/intro/writeup.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -362,9 +362,7 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
+
 </div></div>
       
     </div>
@@ -375,25 +373,11 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>The Event</h1>
+    <h1>The Writeup</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-analysis">Data Analysis</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#model-extraction">Model Extraction</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#model-fingerprinting">Model Fingerprinting</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prompt-injection">Prompt Injection</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adversarial-ai-image">Adversarial AI Image</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adversarial-audio-generation">Adversarial Audio Generation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#model-inversion">Model Inversion</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -403,39 +387,8 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="the-event">
-<h1>The Event<a class="headerlink" href="#the-event" title="Link to this heading">#</a></h1>
-<p><img alt="Event Banner" src="../_images/SG_AI_CTF_Banner_With_Graphics.png" /></p>
-<p>The <a class="reference external" href="https://www.tech.gov.sg/media/events/singapore-ai-ctf-2024/">Singapore AI CTF</a> was a jeopardy-style AI/ML Capture-the-Flag (CTF) competition organised by GovTech’s Cybersecurity Group (CSG) and Dreadnode. In this competition, participants tackle AI security challenges across 7 domains to collect ‘flags’ in the form of hidden files or information.</p>
-<p>The challenges spanned the following 7 categories:</p>
-<section id="data-analysis">
-<h2>Data Analysis<a class="headerlink" href="#data-analysis" title="Link to this heading">#</a></h2>
-<p>Participants need to utilise various data analysis and visualisation tools to extract hidden information within a given dataset.</p>
-</section>
-<section id="model-extraction">
-<h2>Model Extraction<a class="headerlink" href="#model-extraction" title="Link to this heading">#</a></h2>
-<p>Participants use malicious means to extract information from the model (e.g. parameters, architecture, or training data)</p>
-</section>
-<section id="model-fingerprinting">
-<h2>Model Fingerprinting<a class="headerlink" href="#model-fingerprinting" title="Link to this heading">#</a></h2>
-<p>Participants must verify watermarks and/or fingerprints in AI models to verify their authenticity and detect unauthorised copies.</p>
-</section>
-<section id="prompt-injection">
-<h2>Prompt Injection<a class="headerlink" href="#prompt-injection" title="Link to this heading">#</a></h2>
-<p>An attack where hackers use a specially crafted input to trick AI into disclosing a hidden secret.</p>
-</section>
-<section id="adversarial-ai-image">
-<h2>Adversarial AI Image<a class="headerlink" href="#adversarial-ai-image" title="Link to this heading">#</a></h2>
-<p>An attacker injects malicious data into the training set causing AI to misclassify an image.</p>
-</section>
-<section id="adversarial-audio-generation">
-<h2>Adversarial Audio Generation<a class="headerlink" href="#adversarial-audio-generation" title="Link to this heading">#</a></h2>
-<p>Involves replicating voices and audio using AI.</p>
-</section>
-<section id="model-inversion">
-<h2>Model Inversion<a class="headerlink" href="#model-inversion" title="Link to this heading">#</a></h2>
-<p>An attacker aims to infer/reconstruct input data based on model outputs.</p>
-</section>
+  <section class="tex2jax_ignore mathjax_ignore" id="the-writeup">
+<h1>The Writeup<a class="headerlink" href="#the-writeup" title="Link to this heading">#</a></h1>
 </section>
 
     <script type="text/x-thebe-config">
@@ -469,20 +422,20 @@
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="intro.html"
+       href="team.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Singapore AI CTF by GovTech Writeup</p>
+        <p class="prev-next-title">The Team</p>
       </div>
     </a>
     <a class="right-next"
-       href="team.html"
+       href="../prelims/autopilot12.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">The Team</p>
+        <p class="prev-next-title">Autopilot 1 and 2</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -492,28 +445,6 @@
             </div>
             
             
-              
-                <dialog id="pst-secondary-sidebar-modal"></dialog>
-                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-analysis">Data Analysis</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#model-extraction">Model Extraction</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#model-fingerprinting">Model Fingerprinting</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prompt-injection">Prompt Injection</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adversarial-ai-image">Adversarial AI Image</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adversarial-audio-generation">Adversarial Audio Generation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#model-inversion">Model Inversion</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>
