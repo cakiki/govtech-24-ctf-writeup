@@ -21,3 +21,11 @@ parts:
   - caption: CTF Final
     chapters:
     - file: finals/markdown-notebooks
+    - file: finals/blindspot
+    - file: finals/cubic
+    - file: finals/miner
+    - file: finals/mirage
+    - file: finals/probe
+    - file: finals/probe2
+    - file: finals/taxi
+    - file: finals/turtle
