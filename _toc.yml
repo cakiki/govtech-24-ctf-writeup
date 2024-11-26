@@ -12,6 +12,7 @@ parts:
     chapters:
     - file: prelims/autopilot12
     - file: prelims/autopilot3
+    - file: prelims/carbender
     - file: prelims/extractor
     - file: prelims/extractor2
     - file: prelims/fiftycats
@@ -23,6 +24,7 @@ parts:
     - file: finals/markdown-notebooks
     - file: finals/blindspot
     - file: finals/cubic
+    - file: finals/cubic-bonus
     - file: finals/miner
     - file: finals/mirage
     - file: finals/probe
