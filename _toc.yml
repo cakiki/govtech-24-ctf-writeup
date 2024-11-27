@@ -2,17 +2,40 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro/intro
+root: intro
 parts:
   - caption: GovTech CTF
     chapters:
     - file: intro/event
     - file: intro/team
+    - file: intro/writeup
   - caption: CTF Qualifying Round
     chapters:
-    - file: prelims/autopilot12
+    - file: prelims/autopilot
+      sections:
+        - file: prelims/autopilot12
+        - file: prelims/autopilot3
+    - file: prelims/carbender
+    - file: prelims/extractor
+      sections:
+      - file: prelims/extractor1
+      - file: prelims/extractor2
     - file: prelims/fiftycats
     - file: prelims/FRAGile
+    - file: prelims/genigma
+    - file: prelims/sonotype
+      sections:
+      - file: prelims/sonotype-preprocessing
+    - file: prelims/voyager2
   - caption: CTF Final
     chapters:
     - file: finals/markdown-notebooks
+    - file: finals/blindspot
+    - file: finals/cubic
+    - file: finals/cubic-bonus
+    - file: finals/miner
+    - file: finals/mirage
+    - file: finals/probe
+    - file: finals/probe2
+    - file: finals/taxi
+    - file: finals/turtle
