@@ -2,7 +2,7 @@
 
 Team team is a 4-person team consisting of:
 
-- [Bilal Halabi](https://github.com/bilalalhalabi0)
+- [Bilal Alhalabi](https://github.com/bilalalhalabi0)
 - [conor-99](https://github.com/conor-99)
 - [Christopher Akiki](https://twitter.com/christopher)
 - [kenyeungtech](https://github.com/kenyeungtech)
