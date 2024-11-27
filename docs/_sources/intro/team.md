@@ -1,13 +1,13 @@
-# The Team Team
+# The Team
 
-We are a 4-person team consisting of:
+Team team is a 4-person team consisting of:
 
 - b
-- c
-- c
-- k
+- [conor-99](https://github.com/conor-99)
+- [Christopher Akiki](https://twitter.com/christopher)
+- [kenyeungtech](https://github.com/kenyeungtech)
 
 We finished **6th** (open category and overall) in the qualifying round:
-![Prelims Leaderboard](intro/prelims-leaderboard.jpeg "Prelims Leaderboard")
+![Prelims Leaderboard](prelims-leaderboard.jpeg "Prelims Leaderboard")
 
  and **3rd** (open category) in the final:
