@@ -19,6 +19,9 @@ parts:
     - file: prelims/fiftycats
     - file: prelims/FRAGile
     - file: prelims/genigma
+    - file: prelims/sonotype
+      sections:
+      - file: prelims/sonotype-preprocessing
     - file: prelims/voyager2
   - caption: CTF Final
     chapters:
