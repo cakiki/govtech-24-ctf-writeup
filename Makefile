@@ -1,10 +1,12 @@
 all: book html push
 
 book:
+	rm -r docs
+	rm -r _build
 	jupyter-book build .
 
 html:
-	mkdir -p docs
+	mkdir docs
 	cp -r _build/html/* docs/
 	touch docs/.nojekyll
 
