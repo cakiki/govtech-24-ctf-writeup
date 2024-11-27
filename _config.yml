@@ -1,7 +1,7 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: My sample book
+title: GovTech CTF Writeup
 author: Team Team
 copyright: "2024"
 logo: logo.png
@@ -23,7 +23,7 @@ bibtex_bibfiles:
 launch_buttons:
   notebook_interface: jupyterlab 
   colab_url: "https://colab.research.google.com"
-  
+
 # Information about where the book exists on the web
 repository:
   url: https://github.com/cakiki/govtech-24-ctf-writeup  # Online location of your book

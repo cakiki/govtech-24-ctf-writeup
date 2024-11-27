@@ -29,7 +29,6 @@ parts:
     - file: prelims/voyager2
   - caption: CTF Final
     chapters:
-    - file: finals/markdown-notebooks
     - file: finals/blindspot
     - file: finals/cubic
       sections:
@@ -37,7 +36,9 @@ parts:
       - file: finals/cubic-bonus
     - file: finals/miner
     - file: finals/mirage
-    - file: finals/probe
-    - file: finals/probe2
+    - file: finals/probe  
+      sections:
+      - file: finals/probe1
+      - file: finals/probe2
     - file: finals/taxi
     - file: finals/turtle
