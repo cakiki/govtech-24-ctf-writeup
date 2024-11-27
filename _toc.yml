@@ -32,7 +32,9 @@ parts:
     - file: finals/markdown-notebooks
     - file: finals/blindspot
     - file: finals/cubic
-    - file: finals/cubic-bonus
+      sections:
+      - file: finals/cubic-solution
+      - file: finals/cubic-bonus
     - file: finals/miner
     - file: finals/mirage
     - file: finals/probe
