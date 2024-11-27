@@ -17,7 +17,9 @@ parts:
         - file: prelims/autopilot3
     - file: prelims/carbender
     - file: prelims/extractor
-    - file: prelims/extractor2
+      sections:
+      - file: prelims/extractor1
+      - file: prelims/extractor2
     - file: prelims/fiftycats
     - file: prelims/FRAGile
     - file: prelims/genigma
