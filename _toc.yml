@@ -11,8 +11,10 @@ parts:
     - file: intro/writeup
   - caption: CTF Qualifying Round
     chapters:
-    - file: prelims/autopilot12
-    - file: prelims/autopilot3
+    - file: prelims/autopilot
+      sections:
+        - file: prelims/autopilot12
+        - file: prelims/autopilot3
     - file: prelims/carbender
     - file: prelims/extractor
     - file: prelims/extractor2

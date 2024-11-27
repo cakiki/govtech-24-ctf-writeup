@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>&lt;no title&gt; &#8212; My sample book</title>
+    <title>Sonotype Preprocessing &#8212; My sample book</title>
   
   
   
@@ -175,16 +175,20 @@
 <li class="toctree-l1"><a class="reference internal" href="../intro/writeup.html">The Writeup</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">CTF Qualifying Round</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="autopilot12.html">Autopilot 1 and 2</a></li>
-<li class="toctree-l1"><a class="reference internal" href="autopilot3.html">Autopilot 3</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="autopilot.html">Autopilot</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="autopilot12.html">Autopilot 1 and 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="autopilot3.html">Autopilot 3</a></li>
+</ul>
+</details></li>
 <li class="toctree-l1"><a class="reference internal" href="carbender.html">Carbender</a></li>
 <li class="toctree-l1"><a class="reference internal" href="extractor.html">Extractor</a></li>
 <li class="toctree-l1"><a class="reference internal" href="extractor2.html">Extractor 2</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fiftycats.html">FiftyCats</a></li>
 <li class="toctree-l1"><a class="reference internal" href="FRAGile.html">FRAGile</a></li>
 <li class="toctree-l1"><a class="reference internal" href="genigma.html">Genigma</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="sonotype.html">Sonotype</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="simple">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="sonotype.html">Sonotype</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Sonotype Preprocessing</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1"><a class="reference internal" href="voyager2.html">Voyager 2</a></li>
@@ -365,9 +369,7 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
+
 </div></div>
       
     </div>
@@ -378,19 +380,11 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1><no title></h1>
+    <h1>Sonotype Preprocessing</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-            </nav>
         </div>
     </div>
 </div>
@@ -400,7 +394,9 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <div class="cell docutils container">
+  <section class="tex2jax_ignore mathjax_ignore" id="sonotype-preprocessing">
+<h1>Sonotype Preprocessing<a class="headerlink" href="#sonotype-preprocessing" title="Link to this heading">#</a></h1>
+<div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">glob</span>
 <span class="kn">import</span> <span class="nn">librosa</span>
@@ -501,6 +497,7 @@
 </div>
 </div>
 </div>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -556,22 +553,6 @@
             </div>
             
             
-              
-                <dialog id="pst-secondary-sidebar-modal"></dialog>
-                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-  </nav></div>
-
-</div></div>
               
             
           </div>
