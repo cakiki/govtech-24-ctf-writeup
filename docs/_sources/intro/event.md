@@ -4,6 +4,8 @@
 
 The [Singapore AI CTF](https://www.tech.gov.sg/media/events/singapore-ai-ctf-2024/) was a jeopardy-style AI/ML Capture-the-Flag (CTF) competition organised by GovTech's Cybersecurity Group (CSG) and Dreadnode. In this competition, participants tackle AI security challenges across 7 domains to collect 'flags' in the form of hidden files or information.
 
+The event's page on CTFTime: https://ctftime.org/event/2546
+
 ## Challenge Categories
 
 The challenges spanned the following 7 categories:
