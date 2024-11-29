@@ -437,6 +437,14 @@
                   
   <section class="tex2jax_ignore mathjax_ignore" id="sonotype-preprocessing">
 <h1>Sonotype Preprocessing<a class="headerlink" href="#sonotype-preprocessing" title="Link to this heading">#</a></h1>
+<p>Before we could begin training a model on the keystroke data and recover the password from the audio, we needed to split each audio file into individual files, with each one containing exactly one keypress. We found that the <a class="reference external" href="https://github.com/jiaaro/pydub"><code class="docutils literal notranslate"><span class="pre">pydub</span></code></a> module allowed us to automate this process relatively easily.</p>
+<p>We also used <em>data augmentation</em> to both increase the amount of data available for training the model, as well as regularize the said model. We used multiple random combinations of four augmentation methods on each input file:</p>
+<ul class="simple">
+<li><p><strong>padding:</strong> adding a random amount of silence to the beginning and end of an audio clip.</p></li>
+<li><p><strong>cropping:</strong> removing the start and end of the audio clip.</p></li>
+<li><p><strong>volume:</strong> scaling each sample in the audio clip by a random amount.</p></li>
+<li><p><strong>noise:</strong> adding normally distributed noise to the entire audio clip.</p></li>
+</ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">glob</span>
