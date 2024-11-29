@@ -4,6 +4,8 @@ This writeup is structured as a jupyterbook, with most challenge solutions being
 
 We're really happy you're interested in our solutions, but we don't recommend you read them before trying the challenges out yourself on the [crucible platform](https://crucible.dreadnode.io/)
 
+Note that we didn't solve all challenges during the event, but still include solutions to all the challenges.
+
 ## Prelims Challenges
 
 - [crucible.dreadnode.io/challenges/autopilot1](https://crucible.dreadnode.io/challenges/autopilot1)
