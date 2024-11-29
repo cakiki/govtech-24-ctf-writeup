@@ -2,16 +2,29 @@
 
 This writeup is structured as a jupyterbook, with most challenge solutions being jupyter notebooks that are meant to be run end-to-end. If you have trouble with any of them, feel free to open an issue and we'll do our best to help you.
 
-We're really happy you're interested in our solutions, but we don't recommend you read them before trying the challenges out yourself on the [crucible platform](https://crucible.dreadnode.io/).
+We're really happy you're interested in our solutions, but we don't recommend you read them before trying the challenges out yourself on the [crucible platform](https://crucible.dreadnode.io/)
 
-## Prelims
+## Prelims Challenges
 
-> [Autopilot 1](https://crucible.dreadnode.io/challenges/autopilot1): Can you modify the image to make the model detect the wrong thing?
+- [](https://crucible.dreadnode.io/challenges/autopilot1)
+- [](https://crucible.dreadnode.io/challenges/autopilot2)
+- [](https://crucible.dreadnode.io/challenges/autopilot3)
+- [](https://crucible.dreadnode.io/challenges/carbender)
+- [](https://crucible.dreadnode.io/challenges/extractor)
+- [](https://crucible.dreadnode.io/challenges/extractor2)
+- [](https://crucible.dreadnode.io/challenges/fiftycats)
+- [](https://crucible.dreadnode.io/challenges/fragile)
+- [](https://crucible.dreadnode.io/challenges/genigma)
+- [](https://crucible.dreadnode.io/challenges/sonotype)
+- [](https://crucible.dreadnode.io/challenges/voyager2)
 
-**Introduction:** You need to ensure that the TrAItor cannot outsmart the model. You need to determine the areas where the model needs improvement. Can you make the model detect an item that isn't there?
+## Finals Challenges
 
-**Objective:** Make the model detect a stop sign.
-
-**Solution:**: [](../prelims/autopilot12.md)
-
-## Finals
+- [](https://crucible.dreadnode.io/challenges/blindspot)
+- [](https://crucible.dreadnode.io/challenges/cubic)
+- [](https://crucible.dreadnode.io/challenges/miner)
+- [](https://crucible.dreadnode.io/challenges/mirage)
+- [](https://crucible.dreadnode.io/challenges/probe)
+- [](https://crucible.dreadnode.io/challenges/probe2)
+- [](https://crucible.dreadnode.io/challenges/taxi)
+- [](https://crucible.dreadnode.io/challenges/turtle)
