@@ -26,6 +26,7 @@ parts:
     - file: prelims/sonotype
       sections:
       - file: prelims/sonotype-preprocessing
+      - file: prelims/sonotype-model
     - file: prelims/voyager2
   - caption: CTF Final
     chapters:
