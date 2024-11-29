@@ -6,12 +6,14 @@ We're really happy you're interested in our solutions, but we don't recommend yo
 
 ## Prelims
 
-### [Autopilot 1](https://crucible.dreadnode.io/challenges/autopilot1)
+- [Autopilot 1](https://crucible.dreadnode.io/challenges/autopilot1)
 
-> Tagline: Can you modify the image to make the model detect the wrong thing?
-> Introduction: You need to ensure that the TrAItor cannot outsmart the model. You need to determine the areas where the model needs improvement. Can you make the model detect an item that isn't there?
-> Objective: Make the model detect a stop sign.
+> **Tagline:** Can you modify the image to make the model detect the wrong thing?
 
-Solution: [](../prelims/autopilot12.md)
+> **Introduction:** You need to ensure that the TrAItor cannot outsmart the model. You need to determine the areas where the model needs improvement. Can you make the model detect an item that isn't there?
+
+> **Objective:** Make the model detect a stop sign.
+
+**Solution:**: [](../prelims/autopilot12.md)
 
 ## Finals
